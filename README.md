@@ -1,10 +1,3 @@
-### Hi there 👋
-
-<!--
-**jojozero1/jojozero1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
 # 股票数据抓取与推送工具
 
 这是一个用于抓取股票实时数据并通过推送服务发送的Python脚本。它可以帮助用户及时了解关注股票的最新交易信息。
