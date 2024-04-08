@@ -35,11 +35,10 @@ def print_stock_data(stock_data):
 '''
 def send(stock_data):
     #传入了一个stock_data字典
-    your_token = "UCOR99GSMPN0TXS5LBWTFD2N7Q6OF7"
+    your_token = "**********************"#填入自己的推送的token
     url = "https://api.anpush.com/push/"+your_token
     # 遍历stock_data字典，将每个股票的数据格式化为字符串，并添加到content中
-    '''{'SZ000158': {'current_price': '¥8.69', 'highest_price': '8.84', 'opening_price': '8.78', 'upper_limit_price': '9.64', 'lower_limit_price': '8.67', 'lowest_price': '8.76', 'previous_closing_price': '7.88'}, 'SH688609': {'current_price': '¥13.27', 'highest_price': '13.80', 'opening_price': '13.79', 'upper_limit_price': '16.58', 'lower_limit_price': '13.21', 'lowest_price': '13.82', 'previous_closing_price': '11.06'}}'''
-    # 遍历stock_data字典，将每个股票的数据格式化为字符串，并添加到content中
+     # 遍历stock_data字典，将每个股票的数据格式化为字符串，并添加到content中
     payload = {
         "title": "lxhstockpush",
         #从字典中获取多个股票的数据
